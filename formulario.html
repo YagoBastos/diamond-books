@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/css/forms.css">
+
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <form method="POST" action="" class="cadastrar">
+            <div>
+             <div>
+              <input type="text" name="titulo" placeholder="Título">
+              <input type="number" name="codigo" id="codigo" disabled placeholder="Codígo">
+            </div>
+            <div>
+              <input type="text" name="sub_titulo" placeholder="Sub-Título">
+            </div>
+          </div>
+          <div>
+            <div>
+              <select name="editora">
+                <optgroup label="Editora">
+                <option value="Companhia da Letras">Companhia da Letras</option>
+                <option value="Aleph"> Aleph</option>
+                <option value="Suma">Suma</option>
+                <option value="Editora Intrínseca">Editora Intrínseca</option>
+                <option value="Grupo Editorial Record">Grupo Editorial Record</option>
+                <option value="Editora Rocco">Editora Rocco</option>
+                <option value="Globo Livros">Globo Livros</option>
+                <option value="Darkside Books">Darkside Books</option>
+                <option value="inserir">Inserir nova Editora</option>
+              </optgroup>
+              </select>
+              <input type="number" name="edicao" id="edicao" placeholder="Edição" min="1">
+            </div>
+            <div>
+              <input type="text" name="autor" id="autor" placeholder="Autores">
+            </div>
+          </div>
+          <div>
+            <select name="classificacao" id="classificacao">
+              <optgroup label="Classificação">
+              <option value="Ensino Fundamental">Ensino Fundamental</option>
+              <option value="Ensino Fundamental">Ensino Médio</option>
+              <option value="Ensino Fundamental">Ensino Superior</option>
+              </optgroup>
+            </select>
+          </div>
+          <div>
+            <select name="area_do_conhecimento" id="area_do_conhecimento">
+            <optgroup label="Área do conhecimento">
+              <option value="Programação">Programação</option>
+              <option value="Calculo">Calculo</option>
+              <option value="Portugues">Portugues</option>
+            </optgroup>
+          </select>
+          </div>
+          <div>
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+          </div>
+          <div>
+            <select name="idioma" id="idioma">
+              <optgroup label="Idioma">
+                <option value="PortuguesBr">Portugues BR</option>
+                <option value="PortuguesPt">Portugues PT</option>
+                <option value="Espanhol">Espanhol</option>
+                <option value="Ingles">Inglês</option>
+              </optgroup>
+            </select>      
+          </div>
+          <div>
+            <input type="text" name="isbn10" id="isbn10" placeholder="ISBN-10">
+            <input type="text" name="isbn13" id="isbn13" placeholder="ISBN-13">
+          </div>
+          <div>
+            <p id="p_capa">Capa do livro: <input type="file" name="capa" id="capa"></p>
+          </div>
+          <div>
+            <input type="text" name="Valor" id="Valor" placeholder="Valor R$">
+          </div>
+          </form>
+    </main>
+</body>
+</html>

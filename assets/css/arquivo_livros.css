@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+:root{
+    --font_titulo: "Righteous";
+    --font_footer: "Hurricane";
+    --font_paragrafos: "Sarala",arial;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    width: 90vw;
+    height: 100vh;
+}
+section{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+.div_img{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.img{
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+.div_txt{
+    width: 70%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.titulo, .descricao{
+    font-family: var(--font_paragrafos);
+}
+.titulo{
+    font-size: 16px;
+}
+.descricao{
+    font-size: 10px;
+}
